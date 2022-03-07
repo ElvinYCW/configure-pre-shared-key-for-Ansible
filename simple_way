@@ -1,4 +1,4 @@
-Guide:
+Guide :
 in control node, create a new user (any name or user_new in this example): $ sudo useradd -m user_new
 in control node, change to the user_new: $ sudo su - user_new (ensure that '-' is used)
 in control node, generate ssh key: $ ssh-keygen (go with the default by pressing enter with no password keyed-in)
