@@ -1,5 +1,5 @@
-in control node, create a new user (any name or user_new in this example): $ sudo useradd -m user_new
-in control node, change to the user_new: $ sudo su - user_new (ensure that '-' is used)
-in control node, generate ssh key: $ ssh-keygen (go with the default by pressing enter with no password keyed-in)
-in control node, copy the ssh key to workstation (remote): $ ssh-copy-id workstation (may replace workstation with name@ip_address and require to enter password of remote workstation when prompt)
-in control node, now connection to workstation no longer requires password: $ ssh workstation (may replace workstation with name@ip_address)
+in control node, create a new user (any name or user_new in this example): $ `sudo useradd -m user_new`
+in control node, change to the user_new: $ `sudo su - user_new` (ensure that '-' is used)
+in control node, generate ssh key: $ `ssh-keygen` (go with the default by pressing enter with no password keyed-in)
+in control node, copy the ssh key to workstation (remote): $ `ssh-copy-id workstation` (may replace workstation with name@ip_address and require to enter password of remote workstation when prompt)
+in control node, now connection to workstation no longer requires password: $ `ssh workstation` (may replace workstation with name@ip_address)
